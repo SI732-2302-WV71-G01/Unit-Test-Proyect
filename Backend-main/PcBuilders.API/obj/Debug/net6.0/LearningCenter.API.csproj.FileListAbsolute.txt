@@ -1,0 +1,7 @@
+c:\Users\zamira chate\Desktop\Backend del proyecto\Backend-main\PcBuilders.API\obj\Debug\net6.0\LearningCenter.API.csproj.AssemblyReference.cache
+c:\Users\zamira chate\Desktop\Backend del proyecto\Backend-main\PcBuilders.API\obj\Debug\net6.0\LearningCenter.API.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\zamira chate\Desktop\Backend del proyecto\Backend-main\PcBuilders.API\obj\Debug\net6.0\LearningCenter.API.AssemblyInfoInputs.cache
+c:\Users\zamira chate\Desktop\Backend del proyecto\Backend-main\PcBuilders.API\obj\Debug\net6.0\LearningCenter.API.AssemblyInfo.cs
+c:\Users\zamira chate\Desktop\Backend del proyecto\Backend-main\PcBuilders.API\obj\Debug\net6.0\LearningCenter.API.csproj.CoreCompileInputs.cache
+c:\Users\zamira chate\Desktop\Backend del proyecto\Backend-main\PcBuilders.API\obj\Debug\net6.0\LearningCenter.API.MvcApplicationPartsAssemblyInfo.cs
+c:\Users\zamira chate\Desktop\Backend del proyecto\Backend-main\PcBuilders.API\obj\Debug\net6.0\LearningCenter.API.MvcApplicationPartsAssemblyInfo.cache

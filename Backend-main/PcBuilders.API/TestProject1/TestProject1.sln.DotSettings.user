@@ -1,0 +1,41 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=152533e4_002D006d_002D4483_002D94be_002D34e1c857d8c3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ArticleServiceClasTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::6E3D55D9-F9CF-44BF-8E36-F97F6CAB4558::.NETFramework,Version=v4.7.2::TestProject1.TestArticle.ArticleServiceClasTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=39ff2eda_002Ded3a_002D4d58_002Db823_002Deefc8c2297db/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ArticleServiceClas_SetProperties_ReturnsExpectedResult" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::6E3D55D9-F9CF-44BF-8E36-F97F6CAB4558::.NETFramework,Version=v4.7.2::TestProject1.TestArticle.ArticleServiceClasTests.ArticleServiceClas_SetProperties_ReturnsExpectedResult&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8958c6af_002De19d_002D4679_002Da164_002D6ada1ec69dde/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ProductServiceTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::6E3D55D9-F9CF-44BF-8E36-F97F6CAB4558::.NETFramework,Version=v4.7.2::TestProject1.TestProduct.ProductServiceTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::6E3D55D9-F9CF-44BF-8E36-F97F6CAB4558::.NETFramework,Version=v4.7.2::TestProject1.TestPurchase.PurchaseServiceTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::6E3D55D9-F9CF-44BF-8E36-F97F6CAB4558::.NETFramework,Version=v4.7.2::TestProject1.TestSale.SaleServiceTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::6E3D55D9-F9CF-44BF-8E36-F97F6CAB4558::.NETFramework,Version=v4.7.2::TestProject1.TestStore.StoreServiceTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::6E3D55D9-F9CF-44BF-8E36-F97F6CAB4558::.NETFramework,Version=v4.7.2::TestProject1.TestStoreImage.StoreImageServiceTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=aa382d9d_002Debfe_002D41ca_002D98f1_002D6a340064c710/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ArticleServiceClas_SetProperties_ReturnsExpectedResult #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::6E3D55D9-F9CF-44BF-8E36-F97F6CAB4558::.NETFramework,Version=v4.7.2::TestProject1.TestArticle.ArticleServiceClasTests.ArticleServiceClas_SetProperties_ReturnsExpectedResult&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=cda5031d_002D4258_002D4118_002D84c3_002D973f671805fa/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ArticleServiceClasTests #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::6E3D55D9-F9CF-44BF-8E36-F97F6CAB4558::.NETFramework,Version=v4.7.2::TestProject1.TestArticle.ArticleServiceClasTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d01be102_002Dec1b_002D4acf_002Db04a_002Dc809584d8768/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ArticleServiceClas_SetProperties_ReturnsExpectedResult #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::6E3D55D9-F9CF-44BF-8E36-F97F6CAB4558::.NETFramework,Version=v4.7.2::TestProject1.TestArticle.ArticleServiceClasTests.ArticleServiceClas_SetProperties_ReturnsExpectedResult&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d859dfc6_002D2fb1_002D44a6_002D816e_002Dd76b8ecce371/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ArticleServiceClasTests #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::6E3D55D9-F9CF-44BF-8E36-F97F6CAB4558::.NETFramework,Version=v4.7.2::TestProject1.TestArticle.ArticleServiceClasTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::6E3D55D9-F9CF-44BF-8E36-F97F6CAB4558::.NETFramework,Version=v4.7.2::TestProject1.TestProduct.ProductServiceTest.ProductServiceClas_SetProperties_ReturnsExpectedResult&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
