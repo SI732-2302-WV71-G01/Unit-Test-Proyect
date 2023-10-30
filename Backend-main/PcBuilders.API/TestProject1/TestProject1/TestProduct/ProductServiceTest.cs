@@ -2,7 +2,7 @@ using System;
 using Xunit;
 namespace TestProject1.TestProduct
 {
-    public class ProductServiceTest
+    public class ProductServiceClasTests
     {
         [Fact]
         public void ProductServiceClas_SetProperties_ReturnsExpectedResult()
@@ -16,7 +16,7 @@ namespace TestProject1.TestProduct
             string expectedCategory = "Test Category";
             int expectedPrice = 100;
             string expectedInventoryStatus = "In Stock";
-            int expectedStoreId = 2;
+            int expectedStoreId = 1;
 
             // Act
             productServiceClas.Id = expectedId;
@@ -38,5 +38,85 @@ namespace TestProject1.TestProduct
             Assert.Equal(expectedInventoryStatus, productServiceClas.InventoryStatus);
             Assert.Equal(expectedStoreId, productServiceClas.StoreId);
         }
-    }
+
+        [Fact]
+        public void ProductServiceClas_SetInvalidId_ThrowsException()
+        {
+            // Arrange
+            var productServiceClas = new ProductServiceClas();
+
+            // Act and Assert
+            Assert.Throws<ArgumentException>(() => productServiceClas.Id = -1);
+        }
+
+        [Fact]
+        public void ProductServiceClas_SetInvalidRating_ThrowsException()
+        {
+            // Arrange
+            var productServiceClas = new ProductServiceClas();
+
+            // Act and Assert
+            Assert.Throws<ArgumentException>(() => productServiceClas.Rating = -1);
+        }
+
+        [Fact]
+        public void ProductServiceClas_SetEmptyName_ThrowsException()
+        {
+            // Arrange
+            var productServiceClas = new ProductServiceClas();
+
+            // Act and Assert
+            Assert.Throws<ArgumentException>(() => productServiceClas.Name = string.Empty);
+        }
+
+        [Fact]
+        public void ProductServiceClas_SetEmptyImage_ThrowsException()
+        {
+            // Arrange
+            var productServiceClas = new ProductServiceClas();
+
+            // Act and Assert
+            Assert.Throws<ArgumentException>(() => productServiceClas.Image = string.Empty);
+        }
+
+        [Fact]
+        public void ProductServiceClas_SetEmptyCategory_ThrowsException()
+        {
+            // Arrange
+            var productServiceClas = new ProductServiceClas();
+
+            // Act and Assert
+            Assert.Throws<ArgumentException>(() => productServiceClas.Category = string.Empty);
+        }
+
+        [Fact]
+        public void ProductServiceClas_SetInvalidPrice_ThrowsException()
+        {
+            // Arrange
+            var productServiceClas = new ProductServiceClas();
+
+            // Act and Assert
+            Assert.Throws<ArgumentException>(() => productServiceClas.Price = -1);
+        }
+
+        [Fact]
+        public void ProductServiceClas_SetEmptyInventoryStatus_ThrowsException()
+        {
+            // Arrange
+            var productServiceClas = new ProductServiceClas();
+
+           // Act and Assert
+           Assert.Throws<ArgumentException>(() => productServiceClas.InventoryStatus = string.Empty);
+       }
+
+       [Fact]
+       public void ProductServiceClas_SetInvalidStoreId_ThrowsException()
+       {
+           // Arrange
+           var productServiceClas = new ProductServiceClas();
+
+           // Act and Assert
+           Assert.Throws<ArgumentException>(() => productServiceClas.StoreId = -1);
+       }
+   }
 }
