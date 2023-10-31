@@ -25,7 +25,7 @@ pipeline {
         stage('Test') {
             steps {
                 // Ejecuta Unit Test
-                dir('master/Backend-main/PcBuilders.API/TestProject1/TestProject1/TestArticle/ArticleServiceTest.cs') {
+                dir('Backend-main/PcBuilders.API/TestProject1') {
                           bat 'dotnet test'
 
 
