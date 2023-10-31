@@ -38,14 +38,5 @@ pipeline {
 
    
 
-        stage('Publish') {
-            steps {
-                // Cambia al directorio que contiene el archivo de proyecto o solución
-                dir('Backend-main/PcBuilders.API') {
-                    // Publica la aplicación y sus dependencias en una carpeta para despliegue
-                    bat 'dotnet restore'
-                }
-            }
-        }
     }
 }
