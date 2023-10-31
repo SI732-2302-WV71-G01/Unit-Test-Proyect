@@ -12,15 +12,15 @@ pipeline {
             }
         }
 
-        /*stage('Build') {
+        stage('Build') {
             steps {
                 // Cambia al directorio que contiene el archivo de proyecto o solución
                 dir('Backend-main/PcBuilders.API') {
                     // Compila el proyecto y sus dependencias en un conjunto de archivos binarios
-                    bat 'dotnet build --configuration Release --no-restore'
+                    bat 'dotnet restore'
                 }
             }
-        }*/
+        }
 
         stage('Test') {
             steps {
