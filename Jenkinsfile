@@ -25,7 +25,10 @@ pipeline {
         stage('Test') {
             steps {
                     // Ejecuta las pruebas unitarias disponibles en el proyecto
+                dir('Backend-main/PcBuilders.API/TestProject1/TestProject1/TestArticle/ArticleServiceTest.cs') {
                     bat 'dotnet test --no-restore --verbosity normal'
+
+                }
                 
             }
         }
