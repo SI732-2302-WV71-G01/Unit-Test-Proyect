@@ -17,7 +17,7 @@ pipeline {
                 // Cambia al directorio que contiene el archivo de proyecto o solución
                 dir('Backend-main/PcBuilders.API') {
                     // Compila el proyecto y sus dependencias en un conjunto de archivos binarios
-                    bat 'dotnet restore'
+                    bat 'dotnet build'
                 }
             }
         }
