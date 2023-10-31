@@ -26,9 +26,13 @@ pipeline {
             steps {
                     // Ejecuta las pruebas unitarias disponibles en el proyecto
                     bat 'dotnet test --no-restore --verbosity normal'
-                }
+                
             }
         }
+
+
+
+   
 
         stage('Publish') {
             steps {
