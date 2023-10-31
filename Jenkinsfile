@@ -25,8 +25,8 @@ pipeline {
         stage('Test') {
             steps {
 
-                    withMaven(maven : 'MAVEN_3_6_3') {
-                    bat 'mvn test'
+                dir('Backend-main/PcBuilders.API/TestProject1') {
+                          bat 'dotnet test'
 
 
                 }
