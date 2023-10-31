@@ -24,8 +24,6 @@ pipeline {
 
         stage('Test') {
             steps {
-                // Cambia al directorio que contiene el archivo de proyecto o solución
-                dir('Backend-main/PcBuilders.API') {
                     // Ejecuta las pruebas unitarias disponibles en el proyecto
                     bat 'dotnet test --no-restore --verbosity normal'
                 }
