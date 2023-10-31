@@ -12,7 +12,7 @@ pipeline {
             }
         }
 
-        stage('Build') {
+        /*stage('Build') {
             steps {
                 // Cambia al directorio que contiene el archivo de proyecto o solución
                 dir('Backend-main/PcBuilders.API') {
@@ -20,7 +20,7 @@ pipeline {
                     bat 'dotnet build --configuration Release --no-restore'
                 }
             }
-        }
+        }*/
 
         stage('Test') {
             steps {
