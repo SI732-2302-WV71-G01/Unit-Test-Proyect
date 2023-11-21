@@ -24,7 +24,7 @@ jobs:
       working-directory: Backend-main/PcBuilders.API
       
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet restore
       working-directory: Backend-main/PcBuilders.API
       
     - name: Test
