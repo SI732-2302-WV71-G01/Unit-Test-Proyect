@@ -24,9 +24,25 @@ jobs:
   automerge:
     runs-on: ubuntu-latest
     steps:
-      - id: automerge
-        name: automerge
-        uses: "pascalgn/automerge-action@v0.15.6"
-        env:
+     - uses: actions/checkout@v3
+     - name: Setup .NET
+       uses: actions/setup-dotnet@v3
+       with:
+         dotnet-version: 6.0.x
+     - name: Restore dependencies
+       run: dotnet restore
+       working-directory: Backend-main/PcBuilders.API
+      
+     - name: Build
+       run: dotnet restore
+       working-directory: Backend-main/PcBuilders.API
+      
+     - name: Test
+       run: dotnet test
+       working-directory: Backend-main/PcBuilders.API/TestProject1
+     - id: automerge
+       name: automerge
+       uses: "pascalgn/automerge-action@v0.15.6"
+       env:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
           MERGE_LABELS: ""
