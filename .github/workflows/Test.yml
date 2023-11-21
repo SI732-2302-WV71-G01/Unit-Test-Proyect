@@ -28,5 +28,5 @@ jobs:
       working-directory: Backend-main/PcBuilders.API
       
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test 
       working-directory: Backend-main/PcBuilders.API
